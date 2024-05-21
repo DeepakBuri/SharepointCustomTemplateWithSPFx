@@ -1,0 +1,122 @@
+@media screen and (max-width:1399px) {
+	
+}
+@media screen and (max-width:1199px) {	
+	.right-section {
+	width: calc(100vw - 50px);
+	height: calc(100vh - 100px);
+	overflow: auto;
+}
+
+.left-menu-slide.show + .right-section {
+	width: calc(100vw - 50px);
+    float:right;
+	height: calc(100vh - 100px);
+	overflow: auto;
+}
+	
+	.mid_right_section {
+    width: 180px;
+}
+	.right_sec_left_sec {
+    width: calc(100% - 210px);
+}
+	.room_detail li {
+		width: 32%;
+		    font-size: 12px;
+	}
+	.room_detail_note {
+		font-size: 12px;
+	}
+	.res_document_table th,
+	.res_document_table td{
+		font-size: 12px;
+	}
+	
+}
+@media screen and (max-width:991px) {
+	.header_srh {
+		width: 250px;
+	}
+		.right-section {
+	width: calc(100vw - 50px);
+	height: calc(100vh - 100px);
+	overflow: auto;
+}
+
+.left-menu-slide.show + .right-section {
+	width: calc(100vw - 50px);
+    float:right;
+	height: calc(100vh - 100px);
+	overflow: auto;
+}
+	
+}
+@media screen and (max-width:767px) {
+	header {
+		    flex-wrap: wrap;
+		
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.header_srh {
+        width: calc(100vw - 145px);
+    }
+	.header-left {
+		margin-bottom: 10px;
+		border-bottom: 1px solid #ccc;
+	}
+	.left-menu-slide {
+		top: 98px;
+		    height: calc(100vh - 98px);
+	}
+	
+	.right-section {
+	width: calc(100vw - 50px);
+	height: calc(100vh - 100px);
+	overflow: auto;
+}
+
+.left-menu-slide.show + .right-section {
+	width: calc(100vw - 50px);
+    float:right;
+	height: calc(100vh - 100px);
+	overflow: auto;
+}
+	
+	
+	.right_sction_tab_row,
+	.right_tab_cont {
+		flex-wrap: wrap;
+	}
+	.nav.nav-tabs-ri {
+		width: 100%;
+	}
+	.nav.nav-tabs-ri li {
+		margin-bottom: 10px;
+	}
+	.right_sec_left_sec {
+        width: 100%;
+    }
+	.mid_right_section {
+        width: 100%;
+		margin-top: 20px;
+    }
+	.room_detail li {
+        width: 48%;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:599px) {
+	.room_detail li {
+        width: 100%;
+        font-size: 12px;
+    }
+	.room_detail li:empty {
+        display: none;
+    }
+		
+}
+@media screen and (max-width:475px) {
+
+}

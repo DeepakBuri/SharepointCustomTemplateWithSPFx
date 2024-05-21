@@ -1,0 +1,32 @@
+.app {
+    .top {
+        // height: 45px;
+        padding: 10px 0;
+        text-align: center;
+        background: rgb(105, 52, 149);
+        background: linear-gradient(90deg, rgba(105, 52, 149, 1) 27%, rgba(226, 117, 99, 1) 100%);
+        color: #fff;
+        font-size: 14px;
+    }
+   
+}
+
+span.brandtext2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+span.brandtext {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(105, 52, 149);
+}
+
+
+span.sharepointtext {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(105, 52, 149);
+    margin-left: 30px;    
+}
